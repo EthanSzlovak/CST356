@@ -1,0 +1,25 @@
+<html>
+    <head>
+      <!--removeIf(production)-->
+      <link rel="stylesheet" type="text/css" href='style.css'>
+      <script src='js/staff.js'></script>
+      <!--endRemoveIf(production)-->
+      
+      <!-- inject:css -->
+      <!-- endinject -->
+
+      <!-- inject:js -->
+        <!-- endinject -->
+      
+    </head>
+    <body>
+        <a href="index.html">main</a>
+        <a href = "log.html">logoff</a>
+        <a href = "instructors.html">instructors</a>
+        <a href = "students.html">students</a>
+        
+        <h1 class="tablehead">Instructors</h1>
+        <table id="staff-list" style="width:100%"></table>
+        <script>populateStaff()</script>
+    </body>
+</html>
